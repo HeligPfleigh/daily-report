@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  reports:
+    image: tuantran/weeklyreports
+    restart: always
+    build: .
+    volumes:
+      - ./:/home/node/app/

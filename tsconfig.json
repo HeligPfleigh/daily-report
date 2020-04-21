@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "lib": ["es2018", "dom", "esnext.asynciterable"],
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true
+  }
+}
